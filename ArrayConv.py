@@ -2,7 +2,8 @@
 # now dead, PIL library. This library provides extensive file format support, an efficient internal representation,
 # and fairly powerful image processing capabilities. The core image library is designed for fast access to data
 # stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool. To
-# convert an image into an array we are gonna use the Image module of the Pillow library to
+# convert an image into an array we are gonna use the Image module of the Pillow library to make necessary changes
+# for images. Use pip to install necessary libraries and assorted dependancies
 
 
 from PIL import Image
@@ -12,7 +13,8 @@ from PIL import Image
 # The SciPy library is built to work with NumPy arrays, and provides many user-friendly and
 # efficient numerical routines such as routines for numerical integration and optimization. Together,
 # they run on all popular operating systems, are quick to install, and are free of charge.
-# NumPy and SciPy are easy to use, but powerful enough to be depended upon
+# NumPy and SciPy are easy to use, but powerful enough to be depended upon.
+# Use pip to install necessary libraries and assorted dependancies
 
 
 from scipy.ndimage import zoom
